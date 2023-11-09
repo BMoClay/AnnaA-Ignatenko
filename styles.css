@@ -7,7 +7,7 @@
 }
 
 body {
-    margin-left: 30px;
+    margin-left: 75px;
 }
 
 
@@ -47,7 +47,8 @@ body {
 }
 
 .project-info-button {
-    padding-top: 10px;
+    padding-top: 4px;
+    padding-bottom: 6px;
 }
 
 
@@ -57,7 +58,8 @@ body {
 
 .model-inner {
     max-width: 450px;
-    padding: 2em;
+    padding: 2em 3em 5em 5em;
+    /* padding-bottom: 6em; */
 }
 
 [x-cloak] {
@@ -74,17 +76,17 @@ body {
 
 iframe {
     margin-top: 25px;
-    margin-right: 35px;
+    margin-right: 20px;
     width: 700px;
-    max-width: calc(100% - 70px);
+    max-width: calc(100% - 75px);
 }
 
 img {
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-right: 35px;
+    margin-right: 20px;
     width: 700px;
-    max-width: calc(100% - 70px);
+    max-width: calc(100% - 75px);
 }
 
 
@@ -105,17 +107,29 @@ img {
 
 /* @media only screen and (max-width: 768px) { */
 @media only screen and (max-width: 568px) {
+    *{
+        font-size: 12px;
+    }
+
     body {
         margin: 10px;
+        /* font-size: 12px; */
+    }
+
+    #info {
+        /* font-size: 12px; */
+        padding-left: 13px;
+        padding-right: 12px;
     }
 
     .header h2, button{
-        margin-left: 10px;
+        /* font-size: 12px; */
+        margin-left: 12px;
     }
 
     #button {
-        font-size: 13px;
-        margin-right: 10px;
+      font-size: 12px;
+        margin-right: 5px;
     }
 
     .navbuttons {
@@ -123,7 +137,9 @@ img {
     }
     
     .model-inner {
-        max-width: 450px;
+        /* max-width: 450px; */
+        /* font-size: 8px; */
+        margin-left: 0px;
     }
     
     .subsection-title {
