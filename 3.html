@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centinel</title>
+    <link rel="stylesheet" href="styles.css">
+    <script 
+        defer 
+        src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"
+    ></script>
+</head>
+<body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
+    <div class="header">
+        <div class="navbuttons">
+            <a id="button" href="2.html"><</a>
+            <a id="button" href="4.html">></a>
+        </div>
+        <div class="project-role">
+            <h2>Producer</h2>
+        </div>
+        <div class="project-title">
+            <h2>Centinel</h2>
+        </div>
+        <div class="project-date">
+            <h2>2019</h2>
+        </div>
+        <div class="project-details">
+            <h2>Directed by Jasper Spicero</h2>
+            <h2>Part of an installation for Swiss Institute</h2>
+        </div>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/olvCYERIKyo?si=vJy63KoM2HJ_L120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="subsection-title">
+        <h2>On-Set Photography</h2>
+    </div>
+    <div class="images">
+        <img src="img/centinel/DSC6749 copy-min.jpg">
+        <img src="img/centinel/DSC6754 copy-min.jpg">
+        <img src="img/centinel/DSC6760 copy-min.jpg">
+        <img src="img/centinel/DSC6761 copy-min.jpg">
+        <img src="img/centinel/DSC6771 copy-min.jpg">
+    </div>
+    <div class="overlay" x-show="isModalOpen" x-cloak></div>
+</body>
+</html>
