@@ -164,9 +164,10 @@ img {
     }
 
     .footer {
-        position: absolute;
-        bottom: 30px;
-        right: 30px;
+        margin-top: 10px;
+        margin-bottom: auto;
+        /* bottom: 30px;
+        right: 30px; */
     }
 
     .no-mobile {
