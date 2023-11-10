@@ -4,8 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1 - Anna A Ignatenko</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"
-    ></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"></script>
 </head>
 <body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
     <div class="header">
@@ -17,18 +16,16 @@
             <h2>Anna A. Ignatenko</h2>
         </div>
     </div>
-    <div class="footer">
-        <button x-on:click="isModalOpen = true">Info</button>
-        <div
-            class="modal"
-            role="dialog"
-            tabindex="-1"
-            x-show="isModalOpen"
-            x-cloak
-            x-transition
-        >
+    <div class="footer" x-data="{ show: true}">
+        <button class="footer-button" x-show="show"
+            x-on:click="isModalOpen = true; show = !show">
+        Info
+        </button>
+        <div class="modal" role="dialog" tabindex="-1" 
+            x-show="isModalOpen" x-cloak x-transition>
             <template x-teleport="body">
-                <div x-show="isModalOpen" x-on:click.away="isModalOpen = false" id=info class="model-inner">
+                <div x-show="isModalOpen;" id=info class="model-inner"
+                    x-on:click.away="isModalOpen = false; show = true">
                     <p>
                         Anna Aleksandrovna Ignatenko <br> New York, NY
                     </p>                   
