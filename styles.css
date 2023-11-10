@@ -47,7 +47,7 @@ body {
     padding: 0px 2px 0px 2px;
 }
 
-.project-info-button {
+.project-info {
     padding-top: 4px;
     padding-bottom: 6px;
 }
@@ -110,6 +110,7 @@ img {
 @media only screen and (max-width: 568px) {
     *{
         font-size: 12px;
+        font-weight: regular;
     }
 
     body {
