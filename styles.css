@@ -75,6 +75,11 @@ body {
     padding-top: 10px;
 }
 
+#press {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
 video {
     margin-top: 25px;
     /* margin-right: 20px; */
