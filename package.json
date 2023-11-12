@@ -1,0 +1,26 @@
+{
+  "name": "annaa-ignatenko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BMoClay/AnnaA-Ignatenko.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BMoClay/AnnaA-Ignatenko/issues"
+  },
+  "homepage": "https://github.com/BMoClay/AnnaA-Ignatenko#readme",
+  "dependencies": {
+    "firebase": "^10.6.0",
+    "serve": "^14.2.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

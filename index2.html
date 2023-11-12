@@ -59,5 +59,32 @@
         </div>
         <div class="overlay" x-show="isModalOpen" x-cloak></div>
     </div>
+    <!-- <script src="app.js"></script> -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
+        import { getStorage } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
+        // import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCoS9aubGBl4GZMOEisAIJdPQdqCqacijU",
+          authDomain: "annaaignatenko.firebaseapp.com",
+          projectId: "annaaignatenko",
+          storageBucket: "annaaignatenko.appspot.com",
+          messagingSenderId: "493039343783",
+          appId: "1:493039343783:web:741f5f937e9ae2453aa382",
+          measurementId: "G-TXEWDNG6GQ"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const storage = getStorage(App);
+        // const analytics = getAnalytics(app);
+        
+    </script>
 </body>
 </html>
