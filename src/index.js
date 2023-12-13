@@ -1,8 +1,8 @@
-// import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js';
-// import { getStorage } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-storage.js';
+// import { initializeApp } from '/firebase/app'
+// import { getStorage } from '/firebase/storage'
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js';
+import { getStorage } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-storage.js';
 // import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js';
-import { initializeApp } from 'firebase/app'
-import { getStorage } from 'firebase/storage'
 
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -20,7 +20,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const storage = getStorage(firebaseApp);
+const storage = getStorage(app);
 // const db = getFirestore(firebaseApp);
 // const analytics = getAnalytics(app);
-console.log(storage)
+console.log(firebaseConfig)
