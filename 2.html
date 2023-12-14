@@ -20,20 +20,20 @@
             <h2>Production Manager & Assistant Director</h2>
         </div>
         <div class="project-title">
-            <h2>Good People</h2>
+            <h2><em>Good People</em>, 2022</h2>
         </div>
-        <div class="project-date">
+        <!-- <div class="project-date">
             <h2>2022</h2>
-        </div>
+        </div> -->
         <div class="project-details">
             <h2>Directed by Keren Cytter </h2>
         </div>
-        <div class="project-info" x-data="{ show: true}">
+        <div id="info-modal" class="project-info" x-data="{ show: true}">
             <button class="header-button" x-show="show"
                 x-on:click="isModalOpen = true; show = !show">
             Info
             </button>
-            <div x-show="isModalOpen" id=info class="model-inner"
+            <div x-show="isModalOpen" id=info class="model-inner-splash"
                 x-on:click.away="isModalOpen = false; show = true">
                 <p>
                     In March 2020, Sophia and Steve Alcorn found themselves stranded in a one-bedroom apartment in Elmhurst, 
@@ -73,6 +73,10 @@
         </div>
     </div>
     <div class="video">
+    </div>
+    <br>
+    <div class="subsection-title">
+        <h2>Film Stills</h2>
     </div>
     <div class="images">
         <img src="img/goodpeople/1 Untitled_1.1.2-Exposure.jpg"/>
