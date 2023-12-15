@@ -1,4 +1,4 @@
-.light-mode {
+/* .light-mode {
     --color-primary: #FFFFFF;
     --color-secondary: #F56692;
     --color-white: #454e56;
@@ -10,12 +10,12 @@
     --color-grey-4: #454e56;
     --color-grey-5: #f8f8f8;
     --color-grey-6: #12181b;
-  }
+  } */
 
 /* GLOBAL AND BODY STYLING */
 
 * {
-    font-size: 9px;
+    font-size: 10px;
     font-family: courier;
     font-weight: lighter;
 }
@@ -55,7 +55,7 @@ body {
 #button {
     color: black;
     text-decoration: none;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .header {
@@ -70,17 +70,18 @@ body {
 
 .project-role h2{
     letter-spacing: .5px;
-    font-size: 8px;
+    font-size: 9px;
     margin-top: 15px;
     margin-bottom: 25px;
 }
 
 .project-title h2 em{
-    font-size: 9px;
+    font-size: 10px;
+    font-weight: 900;
 }
 
 .project-title-splash h2 {
-    font-size: 9px;
+    font-size: 10px;
     margin-bottom: 1px;
 }
 
@@ -89,7 +90,7 @@ body {
 }
 
 .project-details h2{
-    font-size: 9px;
+    font-size: 10px;
     margin: 0px !important;
 }
 
@@ -165,7 +166,7 @@ button.foot-button {
 }
 
 .model-inner-splash p{
-    font-size: 9px;
+    font-size: 10px;
     padding-top: 0px;
     padding-right: 2em;
     max-width: 900px;
