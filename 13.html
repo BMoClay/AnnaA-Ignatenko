@@ -35,6 +35,7 @@
             </button>
             <div x-show="isModalOpen" id=info class="model-inner"
                 x-on:click.away="isModalOpen = false; show = true">
+                <button id="x-button" aria-label="Close" x-on:click="isModalOpen=false; show = !show">✖</button>
                 <p>
                     Blake and Lexine, my two childhood best friends. Their father, Todd, 
                     worked at the Red Lion Inn, and their mom, Jill, was a busy 

@@ -35,6 +35,7 @@
             </button>
             <div x-show="isModalOpen" id=info class="model-inner"
                 x-on:click.away="isModalOpen = false; show = true">
+                <button id="x-button" aria-label="Close" x-on:click="isModalOpen=false; show = !show">✖</button>
                 <p>
                     Founded 2010 in Portland, Oregon.
                 </p>
