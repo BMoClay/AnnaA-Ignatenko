@@ -3,69 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shower Series</title>
+    <title>1 - Anna A Ignatenko</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"></script>
 </head>
 <body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
     <div class="header">
         <div class="navbuttons">
-            <a id="button" href="19.html"><</a>
+            <a id="button" href="1a.html"><</a>
             <a id="button" href="2.html">></a>
         </div>
         <div class="project-role">
-            <h2>Photography</h2>
+            <h2>Anna A. Ignatenko</h2>
         </div>
-        <div class="project-title-splash">
-            <h2><em>Self Portrait Shower Series</em>, 2021</h2>
-        </div>
-        <div class="mini-gap"></div>
     </div>
-    <div class="splash-images">
-        <img src="img/showerseries/Shower Self Portraits1418 copy.jpg"/>
-    </div>
-    <div class="subsection-title-2">
-        <h2>Anna Aleksandrovna Ignatenko</h2>
-    </div>
-    <div class="project-details-splash">
-        <h2>New York, NY</h2>
-    </div>
-    <div class="overlay" x-show="isModalOpen" x-cloak></div>
-    <div class="splash-footer" x-data="{ show: true}">
-        <button class="foot-button" x-show="show"
+    <div class="footer" x-data="{ show: true}">
+        <button class="footer-button" x-show="show"
             x-on:click="isModalOpen = true; show = !show">
-        About
+        Info
         </button>
         <div class="modal" role="dialog" tabindex="-1" 
             x-show="isModalOpen" x-cloak x-transition>
             <template x-teleport="body">
-                <div x-show="isModalOpen;" id=info-splash class="model-inner-splash"
+                <div x-show="isModalOpen;" id=info class="model-inner"
                     x-on:click.away="isModalOpen = false; show = true">
-                    <button id="x-button-splash" aria-label="Close" x-on:click="isModalOpen=false; show = !show">✖</button>
                     <p>
-                        <div class="mini-gap"></div>
+                        Anna Aleksandrovna Ignatenko <br> New York, NY
+                    </p>                   
+                    <p>
                         Anna is a filmmaker and artist, and her expertise spans photography, sculpture, video, filmmaking, 
                         and screenwriting. She is currently on track to graduate in Spring 2024 from the School of Arts at
                         Columbia University in Film & Media Studies.
-                        <div class="small-gap"></div>
+                    </p> 
+                    <p>
                         She has previously studied Cognitive Science and Neuroscience & Behavioral Studies at the School 
                         of Psychology, School of Cognitive Science, and Department of Biological Sciences at Columbia
                         University. 
-                        <div class="small-gap"></div>
+                    </p>
+                    <p>
                         In addition to her own ventures, she is open to collaborating on others’ films or video projects 
                         as a producer, production manager, researcher, or director of photography. She also supports
                         fellow artists, managing exhibitions and overseeing studios from both production and creative
                         perspectives.
-                        <div class="small-gap"></div>
+                    </p>
+                    <p>
                         Professionally, Anna is actively preparing for two new projects set to begin filming this upcoming
                         winter and has other collaborated on films currently either shortlisted or in post-production
                         scheduled for release in 2024. Upcoming on the academic front, she is preparing to apply to Ph.D.
                         programs this December for Fall 2024.
-                        <div class="small-gap"></div>
+                    </p>
+                    <p>
                         For inquiries or partnerships, she can be reached at aai2131@columbia.edu. 
                     </p>
                 </div>        
             </template>
         </div>
+        <div class="overlay" x-show="isModalOpen" x-cloak></div>
+    </div>
 </body>
 </html>
