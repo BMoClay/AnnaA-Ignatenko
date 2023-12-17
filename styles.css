@@ -308,10 +308,16 @@ img {
     }
 
     #info {
-        /* font-size: 12px; */
+        font-size: 12px; 
         padding-left: 0px;
         padding-right: 3px;
+        /* /* padding-left: 10px;
+        padding-right: 10px; */
     }
+
+    /* .header {
+        margin-left: 20px;
+    } */
 
     .header button {
         /* font-size: 12px; */
@@ -320,17 +326,30 @@ img {
 
     .header h2 {
         /* font-size: 12px; */
-        margin-left: 10px;
+        /* margin-left: 10px; */
+    }
+
+    .project-title {
+        margin-left: 20px;
     }
 
     #button {
         font-weight: lighter;
-        font-size: 11px;
+        font-size: 25px;
         margin-right: 5px;
     }
 
     .navbuttons {
-        margin-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: white;
+        text-align: center;
+        /* margin-left: 10px; */
     }
 
     .model-inner {
@@ -352,8 +371,14 @@ img {
         padding-left: 5px;
     }
 
+    .project-role {
+        /* text-align: center; */
+        width: 50%;
+        margin-left: 20px;
+    }
+
     .project-title-splash h2 {
-        margin-left: 5px;
+        margin-left: 20px;
     }
 
     .project-details-splash h2 {
@@ -369,6 +394,7 @@ img {
     #info-splash {
         padding-left: 5px;
         padding-right: 5px;
+        padding-bottom: 70px;
     }
 
     #x-button {
@@ -384,6 +410,17 @@ img {
         border: none;
     }
 
+    /* button.header-button {
+        letter-spacing: .5px;
+        margin-top: 0px !important;
+        padding-bottom: 3px;
+        padding-left: 20px;
+        font-size: 11px;
+        background-color: white;
+        text-decoration: underline;
+        border: none;
+    } */
+
     .foot-button {
         margin-left: 5px !important;
     }
@@ -395,7 +432,7 @@ img {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;
-        max-width: calc(100% - 20px);
+        max-width: calc(100%);
     }
 
     .press-images img {
@@ -427,8 +464,13 @@ img {
         right: 30px;
     }
 
+    .project-info {
+        margin-left: 10px;
+    }
+
     .project-info-button {
         padding: 0px;
+        /* padding-left: 50px; */
     }
 
     .project-misc h2 {
