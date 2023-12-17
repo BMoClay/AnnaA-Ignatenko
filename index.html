@@ -12,65 +12,59 @@
 <body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
     <div class="header">
         <div class="navbuttons">
-            <a id="button" href="19.html"><</a>
-            <a id="button" href="2.html">></a>
+            <a id="nav-buttons" href="19.html"><</a>
+            <a id="nav-buttons" href="2.html">></a>
         </div>
-        <!-- <div class="medium-gap"></div> -->
-        <div class="project-role">
-            <!-- <h2>a10ko</h2> -->
-        </div>
-        <div class="project-title-splash">
+        <div class="project-info">
             <h2>a10ko</h2>
             <h2>Anna Ignatenko</h2>
             <h2>New York, NY</h2>
         </div>
-        <div class="big-gap"></div>
     </div>
-    <div class="project-title-splash">
+    <!-- <div class="project-info">
         <h2><em>Self Portrait Shower Series</em>, 2021</h2>
-    </div>
+    </div> -->
     <div class="splash-images">
         <img src="img/showerseries/Shower Self Portraits1418 copy.jpg" />
+        <h2 id="align-right-info"><em>Self Portrait Shower Series</em>, 2021</h2>
     </div>
-    <!-- <div class="project-details-splash">
-        <h2>New York, NY</h2>
-    </div> -->
     <div class="overlay" x-show="isModalOpen" x-cloak></div>
   
     <div class="splash-footer" x-data="{ show: true}">
-        <button class="foot-button" x-show="show" x-on:click="isModalOpen = true; show = !show">
+        <button class="header-button" x-show="show" x-on:click="isModalOpen = true; show = !show">
             about
         </button>
+        <!-- <h2 id="align-right-info"><em>Self Portrait Shower Series</em>, 2021</h2> -->
         <div class="modal" role="dialog" tabindex="-1" x-show="isModalOpen" x-cloak x-transition>
             <template x-teleport="body">
                 <div x-show="isModalOpen;" id=info-splash class="model-inner-splash"
                     x-on:click.away="isModalOpen = false; show = true">
-                    <button id="x-button-splash" aria-label="Close"
+                    <button class="x-button" aria-label="Close"
                         x-on:click="isModalOpen=false; show = !show">x</button>
                     <p>
-                    <div class="mini-gap"></div>
+                    <br><br>
                     Anna Aleksandrovna Ignatenko
-                    <div class="small-gap"></div>
+                    <br><br>
                     Anna is a filmmaker and artist, and her expertise spans photography, sculpture, video, filmmaking,
                     and screenwriting. She is currently on track to graduate in Spring 2024 from the School of Arts at
                     Columbia University in Film & Media Studies.
-                    <div class="small-gap"></div>
+                    <br><br>
                     She has previously studied Cognitive Science and Neuroscience & Behavioral Studies at the School
                     of Psychology, School of Cognitive Science, and Department of Biological Sciences at Columbia
                     University.
-                    <div class="small-gap"></div>
+                    <br><br>
                     In addition to her own ventures, she is open to collaborating on others’ films or video projects
                     as a producer, production manager, researcher, or director of photography. She also supports
                     fellow artists, managing exhibitions and overseeing studios from both production and creative
                     perspectives.
-                    <div class="small-gap"></div>
+                    <br><br>
                     Professionally, Anna is actively preparing for two new projects set to begin filming this upcoming
                     winter and has other collaborated on films currently either shortlisted or in post-production
                     scheduled for release in 2024. Upcoming on the academic front, she is preparing to apply to Ph.D.
                     programs this December for Fall 2024.
-                    <div class="small-gap"></div>
+                    <br><br>
                     For inquiries or partnerships, she can be reached at aai2131@columbia.edu.
-                    </p>
+                </p>
                 </div>
             </template>
         </div>

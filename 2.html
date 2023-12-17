@@ -12,18 +12,17 @@
 </head>
 <body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
     <div class="header">
-        <div class="navbuttons">
-            <a id="button" href="index.html"><</a>
-            <a id="button" href="3.html">></a>
+        <div class="navbuttons" id="myHeader">
+            <a id="nav-buttons" href="index.html"><</a>
+            <a id="nav-buttons" href="3.html">></a>
         </div>
         <div class="project-role">
             <h2>Production Manager & Assistant Director</h2>
-        </div>
-        <div class="project-title">
             <h2><em>Good People</em>, 2022</h2>
-            <h2>Directed by Keren Cytter </h2>
+            <!-- <h2>Directed by Keren Cytter </h2> -->
         </div>
-        <div id="info-modal" class="project-info" x-data="{ show: true}">
+        <div class="project-info"><h2>Directed by Keren Cytter </h2></div>
+        <div id="info-modal" x-data="{ show: true}">
             <button class="header-button" x-show="show"
                 x-on:click="isModalOpen = true; show = !show">
             Info
@@ -33,6 +32,7 @@
                 <!-- <button class="x-button" id="x-button" aria-label="Close" x-on:click="isModalOpen=false; show = !show">✖</button> -->
                 <button class="x-button" id="x-button" aria-label="Close" x-on:click="isModalOpen=false; show = !show">x</button>
                 <p>
+                    <br>
                     In March 2020, Sophia and Steve Alcorn found themselves stranded in a one-bedroom apartment in Elmhurst, 
                     Queens. The married couple had just left Kentucky and moved to New York after Steve Alcorn started his 
                     residency in Elmhurst hospital. Sophia Alcorn feels alienated in the neighborhood, famous for its 
@@ -107,5 +107,19 @@
         <img src="img/goodpeople/33 Untitled_1.1.126-Exposure.jpg"/>
     </div>
     <div class="overlay" x-show="isModalOpen" x-cloak></div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
 </body>
 </html>
