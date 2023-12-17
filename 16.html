@@ -19,20 +19,12 @@
         <div class="project-role">
             <h2>Co-Director & Producer</h2>
         </div>
-        <div class="project-title">
+        <div class="project-info">
             <h2><em>She Fell From A Pear Tree</em>, 2023</h2>
-        </div>
-        <!-- <div class="project-date">
-            <h2>2023</h2>
-        </div> -->
-        <div class="project-details">
             <h2>Co-Directed and Produced with Andrea Lausevic</h2>
-            <!-- <h2>Currently in Post Production</h2> -->
-        </div>
-        <div class="project-misc">
             <h2>Currently in Post Production</h2>
         </div>
-        <div class="project-info" x-data="{ show: true}">
+        <div x-data="{ show: true}">
             <button class="header-button" x-show="show"
                 x-on:click="isModalOpen = true; show = !show">
             Info
@@ -42,13 +34,6 @@
                 <p></p>
             </div>
         </div>
-    </div>
-    <!-- <div class="images">
-        <img src="img/"/>
-    </div> -->
-    <div class="video">
-        <iframe width="640" height="360" frameborder="0" 
-        src="https://vimeo.com/878767947" allowfullscreen ></iframe>
     </div>
     <div class="overlay" x-show="isModalOpen" x-cloak></div>
 </body>

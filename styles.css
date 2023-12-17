@@ -73,7 +73,7 @@ button {
 
 
 img {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 35px;
     width: 700px;
     max-width: calc(100%);
@@ -155,12 +155,13 @@ iframe {
     }
     
     .project-info {
+        padding-right: 20px;
         padding-left: 30px;
         padding-bottom: 30px;
     }
     
     img {
-        margin-top: 0px;
+        margin-top: 5px;
         display: block;
         margin-left: auto;
         margin-right: auto;
