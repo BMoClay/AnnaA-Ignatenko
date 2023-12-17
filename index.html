@@ -36,7 +36,7 @@
         <h2>New York, NY</h2>
     </div> -->
     <div class="overlay" x-show="isModalOpen" x-cloak></div>
-    <div class="mini-gap"></div>
+  
     <div class="splash-footer" x-data="{ show: true}">
         <button class="foot-button" x-show="show" x-on:click="isModalOpen = true; show = !show">
             about
@@ -46,7 +46,7 @@
                 <div x-show="isModalOpen;" id=info-splash class="model-inner-splash"
                     x-on:click.away="isModalOpen = false; show = true">
                     <button id="x-button-splash" aria-label="Close"
-                        x-on:click="isModalOpen=false; show = !show">✖</button>
+                        x-on:click="isModalOpen=false; show = !show">x</button>
                     <p>
                     <div class="mini-gap"></div>
                     Anna Aleksandrovna Ignatenko
