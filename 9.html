@@ -28,10 +28,11 @@
                 x-on:click="isModalOpen = true; show = !show">
             Info
             </button>
-            <div x-show="isModalOpen" id=info class="model-inner"
+            <div x-show="isModalOpen" class="model-inner"
                 x-on:click.away="isModalOpen = false; show = true">
                 <button class="x-button" aria-label="Close" x-on:click="isModalOpen=false; show = !show">x</button>
                 <p>
+                    <br><br>
                     Founded 2010 in Portland, Oregon.
                 </p>
                 <p>

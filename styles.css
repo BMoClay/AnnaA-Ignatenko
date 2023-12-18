@@ -52,6 +52,10 @@ button {
    float: right;
 }
 
+#top-image {
+    padding-top: 20px;
+}
+
 
 /* MODAL STYLING */
 
@@ -77,6 +81,11 @@ img {
     margin-top: 10px;
     margin-bottom: 35px;
     width: 700px;
+    max-width: calc(100%);
+}
+
+#cmptrimg img{
+    width: 1200px;
     max-width: calc(100%);
 }
 
@@ -141,7 +150,7 @@ iframe {
     }
     
     #nav-buttons {
-        padding: 10px;
+        padding: 5px;
         font-size: 20px;
     }
 
