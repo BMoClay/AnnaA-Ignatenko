@@ -13,19 +13,14 @@
 <body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
     <div class="header">
         <div class="navbuttons">
-            <a id="button" href="12.html"><</a>
-            <a id="button" href="14.html">></a>
+            <a id="nav-buttons" href="12.html"><</a>
+            <a id="nav-buttons" href="14.html">></a>
         </div>
         <div class="project-role">
             <h2>Writer</h2>
         </div>
-        <div class="project-title">
+        <div class="project-info">
             <h2><em>Pendulum of Existence</em></h2>
-        </div>
-        <!-- <div class="project-date">
-            <h2>Short Story</h2>
-        </div> -->
-        <div class="project-details">
             <h2>Short Story; work in progress</h2>
         </div>
         <div class="project-info-2" x-data="{ show: true}">
@@ -35,7 +30,8 @@
             </button>
             <div x-show="isModalOpen" id=info class="model-inner"
                 x-on:click.away="isModalOpen = false; show = true">
-                <button id="x-button" aria-label="Close" x-on:click="isModalOpen=false; show = !show">✖</button>
+                <button class="x-button" aria-label="Close" x-on:click="isModalOpen=false; show = !show">x</button>
+                <br><br>
                 <p>
                     Blake and Lexine, my two childhood best friends. Their father, Todd, 
                     worked at the Red Lion Inn, and their mom, Jill, was a busy 
@@ -58,11 +54,12 @@
                     they were my refuge, my adopted family in a world where normalcy was a 
                     shifting, elusive shadow.
                 </p>
+                <br>
             </div>
         </div>
     </div>
     <div class="small-images">
-        <img src="img/pendulum/Oscillating_pendulum.gif"/>
+        <img id="top-image" src="img/pendulum/Oscillating_pendulum.gif"/>
     </div>
     <div class="overlay" x-show="isModalOpen" x-cloak></div>
 </body>

@@ -13,25 +13,19 @@
 <body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
     <div class="header">
         <div class="navbuttons">
-            <a id="button" href="18.html"><</a>
-            <a id="button" href="index.html">></a>
+            <a id="nav-buttons" href="18.html"><</a>
+            <a id="nav-buttons" href="20.html">></a>
         </div>
         <div class="project-role">
             <h2>Photography</h2>
         </div>
-        <div class="project-title">
+        <div class="project-info">
             <h2>WL, 2013</h2>
-        </div>
-        <!-- <div class="project-date">
-            <h2>2013</h2>
-        </div> -->
-        <div class="project-details">
             <h2>Interview Magazine</h2>
         </div>
-        <div class="mini-gap"></div>
     </div>
     <div class="images">
-        <img src="img/wl/img-wl_133500779144.jpeg"/>
+        <img id="top-image" src="img/wl/img-wl_133500779144.jpeg"/>
     </div>
     <div class="overlay" x-show="isModalOpen" x-cloak></div>
 </body>

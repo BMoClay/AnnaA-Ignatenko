@@ -13,39 +13,20 @@
 <body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
     <div class="header">
         <div class="navbuttons">
-            <a id="button" href="17.html"><</a>
-            <a id="button" href="19.html">></a>
+            <a id="nav-buttons" href="17.html"><</a>
+            <a id="nav-buttons" href="19.html">></a>
         </div>
         <div class="project-role">
             <h2>Photography</h2>
         </div>
-        <div class="project-artist-title">
+        <div class="project-info">
             <h2>Carlos Reyes; <em>SaltWaterFarm</em></h2>
-        </div>
-        <div class="project-date">
             <h2>October 31 - December 13, 2020</h2>
-            <!-- <h2>Waldo; Searsport, Maine</h2> -->
-        </div>
-        <div class="project-misc">
             <h2>Waldo; Searsport, Maine. Storage Exhibition</h2>
         </div>
-       <div class="mini-gap"></div>
-        <!-- <div class="project-details">
-            <h2>Waldo Searsport Storage Exhibition</h2>
-        </div> -->
-        <!-- <div class="project-info" x-data="{ show: true}">
-            <button class="header-button" x-show="show"
-                x-on:click="isModalOpen = true; show = !show">
-            Info
-            </button>
-            <div x-show="isModalOpen" id=info class="model-inner"
-                x-on:click.away="isModalOpen = false; show = true">
-                <p></p>
-            </div>
-        </div> -->
     </div>
     <div class="images">
-        <img src="img/waldo/01-Carlos-Reyes-saltwaterfarm-Waldo-2020-1-scaled-Exposure.jpg"/>
+        <img id="top-image" src="img/waldo/01-Carlos-Reyes-saltwaterfarm-Waldo-2020-1-scaled-Exposure.jpg"/>
         <img src="img/waldo/02-Carlos-Reyes-saltwaterfarm-Waldo-2020-scaled-Exposure.jpg"/>
         <img src="img/waldo/03-Carlos-Reyes-saltwaterfarm-Waldo-2020-scaled-Exposure.jpg"/>
         <img src="img/waldo/04-Carlos-Reyes-saltwaterfarm-Waldo-2020-scaled-Exposure.jpg"/>

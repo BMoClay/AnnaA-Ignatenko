@@ -13,35 +13,27 @@
 <body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
     <div class="header">
         <div class="navbuttons">
-            <a id="button" href="7.html"><</a>
-            <a id="button" href="9.html">></a>
+            <a id="nav-buttons" href="7.html"><</a>
+            <a id="nav-buttons" href="9.html">></a>
         </div>
         <div class="project-role">
             <h2>Director</h2>
         </div>
-        <div class="project-title">
+        <div class="project-info">
             <h2>Blouse; <em>"Happy Days"</em>, 2014</h2>
-        </div>
-        <div class="project-date">
             <h2>Music Video</h2>
-        </div>
-        <div class="project-misc">
             <h2>Shot on Super 16mm, premiered by Captured Tracks and Pitchfork</h2>
         </div>
-        <!-- <div class="project-info" x-data="{ show: true}">
-            <button class="header-button" x-show="show"
-                x-on:click="isModalOpen = true; show = !show">
-            Info
-            </button>
-            <div x-show="isModalOpen" id=info class="model-inner"
-                x-on:click.away="isModalOpen = false; show = true">
-                <p></p>
-            </div>
-        </div> -->
     </div>
-    <!-- <div class="images">
-        <img src="img/"/>
+    <div class="images">
+        <!-- <img id="top-image" src="img/blouse/0005002906_10-800x800.jpg" alt=""> -->
+        <img id="top-image" src="img/blouse/0005002906_10.jpeg" alt="">
+        <img src="img/blouse/16808883928_5f4059e216_o.jpg" alt="">
+        <img src="img/blouse/back of the record.jpeg" alt="">
+        <img src="img/blouse/blouselimited_1024x1024_56a58400-c6d9-4527-a87f-1d195a3280fe_1024x1024.webp" alt="">
+        <img src="img/blouse/blouseregular_1024x1024_22d03cbc-91f5-448e-b306-7843065f7ca8_1024x1024.webp" alt="">
+        <img src="img/blouse/cbfb58a210a749629f20e1cefa4bc56b.webp" alt="">
+        <img src="img/blouse/image_e480851e-d2d6-4c3b-b4ba-c7641e5ad367_1024x1024.webp" alt="">
     </div>
-    <div class="overlay" x-show="isModalOpen" x-cloak></div> -->
 </body>
 </html>
