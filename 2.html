@@ -24,8 +24,7 @@
         <div class="project-info"><h2>Directed by Keren Cytter </h2></div>
         <div id="info-modal" x-data="{ show: true}">
             <button class="header-button" x-show="show"
-                x-on:click="isModalOpen = true; show = !show">
-            Info
+                x-on:click="isModalOpen = true; show = !show">Info
             </button>
             <div x-show="isModalOpen" id=info-medium class="model-inner-splash"
                 x-on:click.away="isModalOpen = false; show = true">
