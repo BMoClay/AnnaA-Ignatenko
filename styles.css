@@ -124,17 +124,28 @@ iframe {
     p {
         padding-left: 15px;
         padding-right: 15px;
-        padding-bottom: 0px;
+        padding-bottom: 15px;
     }
 
     .header-button {
-        padding-left: 5px;
+        padding-left: 30px;
+    }
+
+    .header-button-splash {
+        padding-left: 3px;
     }
 
     .x-button {
         padding-left: 5px;
     }
     
+    #nav-buttons {
+        font-size: 30px;
+    }
+
+    #info-splash {
+        padding-bottom: 50px;
+    }
     
     .navbuttons {
         padding-top: 7px;
