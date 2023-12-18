@@ -14,6 +14,7 @@ body {
 
 p {
     padding-bottom: 20px;
+    max-width: 708px;
 }
 
 button {
@@ -52,17 +53,14 @@ button {
    float: right;
 }
 
-<<<<<<< HEAD
 #info-modal {
     margin: 0px !important;
     padding: 0px !important;
 }
-=======
 #top-image {
     padding-top: 20px;
 }
 
->>>>>>> origin
 
 /* MODAL STYLING */
 
