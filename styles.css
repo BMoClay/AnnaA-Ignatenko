@@ -1,6 +1,6 @@
 * {
     letter-spacing: .5px;
-    font-size: 11px;
+    font-size: 10px;
     font-family: courier;
     font-weight: lighter;
     margin-top: 0px;
@@ -44,12 +44,13 @@ button {
     margin-top: 0px;
 }
 
+.section-title {
+    padding-top: 40px;
+}
+
 #align-right-info{
    float: right;
 }
-
-
-
 
 
 /* MODAL STYLING */
@@ -73,7 +74,7 @@ button {
 
 
 img {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 35px;
     width: 700px;
     max-width: calc(100%);
@@ -140,7 +141,8 @@ iframe {
     }
     
     #nav-buttons {
-        font-size: 30px;
+        padding: 10px;
+        font-size: 20px;
     }
 
     #info-splash {
@@ -161,7 +163,6 @@ iframe {
     
     .project-role {
         width: 50%;
-        /* margin-left: 20px; */
         padding-left: 30px;
     }
     
@@ -169,6 +170,11 @@ iframe {
         padding-right: 20px;
         padding-left: 30px;
         padding-bottom: 30px;
+    }
+
+    .section-title {
+        padding-left: 30px;
+        padding-bottom: 10px;
     }
     
     img {
@@ -186,9 +192,7 @@ iframe {
     
     iframe {
         margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        max-width: calc(100% - 20px);
+        max-width: calc(100%);
     }
     
     .footer {
