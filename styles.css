@@ -183,7 +183,10 @@ button.foot-button {
     padding-bottom: 0px;
 }
 
-
+#info-modal {
+    margin: 0px !important;
+    padding: 0px !important;
+}
 
 /* MODAL STYLING */
 
