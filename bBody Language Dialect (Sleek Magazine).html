@@ -133,7 +133,6 @@ nextArrow: '.slickNext',
 initialSlide: startPage
 });
 initSlick();
-unSlick();
 function updateState(mediaID) {
 var urlChk = location.pathname.substr(location.pathname.lastIndexOf("/")+1);
 if((Math.floor(urlChk) == urlChk && $.isNumeric(urlChk)) || urlChk=='' || urlChk=='viewAll') { pushURL = mediaID; } else {pushURL = location.pathname+'/'+mediaID;}
@@ -170,18 +169,18 @@ return false;
 });	
 </script>
 </head>
-<body >
-<div id="BasicInfo" class='reveal-modal' data-reveal></div>
+<body>
+<div ></div>
 <link rel="stylesheet" href="https://i.mdel.net/static/assets/index-Sa77kWEB.css"/>
 <div id="mdctopnav-root"></div>	
-<script type="module" src="https://i.models.com/static/assets/index-3Kh2u55a.js"></script>
+<script type="module" ></script>
 <div class="row">
 <div class="mdcdb-font-size large-4 small-12 columns">
 <div class="row work-left"> 
 <div id="title-box" class="panel">
-<h3><a href="https://models.com/client/sleek-magazine">Sleek Magazine</a></h3 >
+<h3><a style="color: black" href="https://models.com/client/sleek-magazine">Sleek Magazine</a></h3 >
 <h4>Body Language Dialect</h4>
-Source: <a href="http://www.sleek-mag.com">sleek-mag.com</a><br>
+Source: <a style="color: black; text-decoration: underline;" href="http://www.sleek-mag.com">sleek-mag.com</a><br>
 Published: Fall/Winter 2015<br>
 </div>
 <div class="single-view unSlick panel"><a class="button">View: <i class="fa fa-image" aria-hidden="true"></i><i class="fa fa-list" aria-hidden="true"></i></a></div>
@@ -404,8 +403,8 @@ All people in this editorial:<br />
 <a href="https://models.com/models/zlata-semenko" >Zlata Semenko</a>
 </span>
 <hr>
-<span>Credits for this picture:
-<a href="https://models.com/people/anna-alek" >Anna Alek</a> (Photographer), 
+<span >Credits for this picture:
+<a href="https://models.com/people/anna-alek">Anna Alek</a> (Photographer), 
 <a href="https://models.com/people/shinya-nakagawa" >Shinya Nakagawa</a> (Hair Stylist), 
 <a href="https://models.com/people/tomohiro-muramatsu" >Tomohiro Muramatsu</a> (Makeup Artist)
 </span>
@@ -660,7 +659,6 @@ All people in this editorial:<br />
 </div>
 </div>
 </div>
-<div style="border:1px solid #ccc;padding:20px;margin:20px 0;font-weight:bold;clear:both;text-align:center;">View the complete story on <a href="http://www.sleek-mag.com">sleek-mag.com</a></div>
 </div>
 </div> 
 </div>

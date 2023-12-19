@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <head>
-<title>Body Language Dialect (Sleek Magazine)</title>
+<title>Body Language Dialect</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="https://i.mdel.net/css/font-awesome/5.15.2-pro/css/all.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -25,7 +25,13 @@
 <script src="https://i.models.com/mdcdb/js/mdc-AutoSuggest_2018.js?v=1"></script>
 <link rel="stylesheet" href="https://i.mdel.net/h/20/mdchead.css?v=23.08">
 <script src="https://i.models.com/h/20/mdchead.js?v=2"></script>
+<script src="https://i.models.com/mdcdb/js/jquery.ui.touch-punch.min.js"></script>
+<script src="https://i.models.com/account/js/foundation-datepicker.js?v6"></script>
+<link rel="stylesheet" href="https://i.mdel.net/account/css/foundation-datepicker.min.css">
+<link rel="stylesheet" type="text/css" href="https://i.mdel.net/account/css/editor2.css?v=35" /> 
+<script src="https://i.models.com/account/js/editor-p.js?v=7"></script>
 <script>window.dataLayer = window.dataLayer || [];</script>
+<script>window.dataLayer.push({'userId' : 'c4271e303a4b521f1326062647fec50e','profile_type' : 'enthusiast','membership_type' : 'free'});</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -56,13 +62,8 @@ $("#"+divID).html(html);
 </script>
 <script type="text/javascript">
 $(document).ready(function(){
-var startSlide = $(".workSlider .columns[data-mediaid='424572']").index();
-if (startSlide > 0 && startSlide != 1) { // startSlide != 1 fixes bug when only 2 slides and second is initial
-var startPage = Math.floor((startSlide-1)/4);
-if ((startSlide-1) % 4 == 0 && (startSlide+1) == 15) {startPage--;} // compensate for last slide
-} else {
+var startSlide = 0;
 var startPage = 0;
-}
 $('.workSliderThumbs .th').on('click', function () {
 if (typeof $(this).data('slick-index') !== "undefined") {
 $('.workSlider').slick('slickGoTo',$(this).data('slick-index'));
@@ -132,6 +133,7 @@ nextArrow: '.slickNext',
 initialSlide: startPage
 });
 initSlick();
+unSlick();
 function updateState(mediaID) {
 var urlChk = location.pathname.substr(location.pathname.lastIndexOf("/")+1);
 if((Math.floor(urlChk) == urlChk && $.isNumeric(urlChk)) || urlChk=='' || urlChk=='viewAll') { pushURL = mediaID; } else {pushURL = location.pathname+'/'+mediaID;}
@@ -173,87 +175,6 @@ return false;
 <link rel="stylesheet" href="https://i.mdel.net/static/assets/index-Sa77kWEB.css"/>
 <div id="mdctopnav-root"></div>	
 <script type="module" src="https://i.models.com/static/assets/index-3Kh2u55a.js"></script>
-<div id="loginModal" class="reveal-modal large" data-reveal >
-<div class="adminpage login">
-<div class="row">
-<div class="columns"><h1>Log in to continue</h1></div>
-</div>
-<div class="loginrow row" data-equalizer>
-<div class="small-12 large-6 columns loginbox">
-<form id="duo_form" action="https://models.com/work/sleek-magazine-body-language-dialect/424572" method="POST">
-<div class="borderbox row" data-equalizer-watch>
-<div class="columns small-12 loginformcontainer">
-<div class="row socialrow">
-<div class="small-12 columns socialrow">
-<ul class="small-block-grid-1 socialgrid">
-<li class="social-facebook">
-<a href="https://models.com/account/settings/social/facebookoAuth.html?login=1">
-<i class="fab fa-facebook socialbuttons" title="facebook"></i> Facebook
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="row orLine">
-<div class="small-5 columns"></div>
-<div class="small-2 columns text-center"><h4>or</h4></div>
-<div class="small-5 columns"></div>
-</div>
-<div class="row">
-<div class="small-12 columns">
-<INPUT class="rcrns-10" ID="LoginUSERID" TYPE="EMAIL" NAME="USERID" SIZE="15" MAXLENGTH="50" REQUIRED placeholder="Email">
-</div>
-</div>
-<div class="row">
-<div class="small-12 columns">
-<INPUT class="rcrns-10" TYPE="PASSWORD" NAME="PASSWORD" SIZE="15" MAXLENGTH="30" REQUIRED placeholder="Password">
-</div>
-</div>
-<div class="row">
-<div class="small-6 columns">
-<span class="forgotPass"><a href="https://models.com/register/resetword.html?userRequest=1" title="Forgot your password?">Forgot your password?</a></span>
-</div>
-<div class="small-6 columns">
-<input type="hidden" name="login" value="y">
-<input id="UloginSubmitButton" class="mdclogin tiny button expand" type="Submit" name="loginB" value="Log in &raquo;" />
-</div>
-</div>
-<div class="row show-for-small-only">
-<div class="small-12 text-center notamember">
-<a href="/register" class="info button radius">Not a Member? Sign Up Here</a>
-</div>
-</div>
-</div>
-</div>
-</form>
-</div>
-<div class="small-12 large-6 columns learnmore">
-<div class="borderbox overflow" data-equalizer-watch>
-<div class="row notamember">
-<h1>Not a member yet?</h1>
-<p>Sign up if you are a:</p>
-<p><strong>Model, Photographer, Stylist, Makeup or Hair Stylist, Casting Director, Agent, Magazine, PR or Ad agency, Production Company, Brand or just a Fan!</strong></p>
-</div>
-<div class="row text-center">
-<a class="mdclogin tiny button" href="https://models.com/register" title="Register here">Sign up, it's free &raquo;</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<a class="close-reveal-modal" style="padding:0 2px;background-color:#fff;">&#215;</a>
-</div>
-<script>
-$(document).ready(function() { 
-$(document).on('opened.fndtn.reveal', '#loginModal', function () {
-$(document).foundation('reflow');
-});
-$("#duo_form").on('submit',function () {
-$("#UloginSubmitButton").attr("disabled", true);
-return true;
-});
-});
-</script>
 <div class="row">
 <div class="mdcdb-font-size large-4 small-12 columns">
 <div class="row work-left"> 
