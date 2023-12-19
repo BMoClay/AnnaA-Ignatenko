@@ -58,8 +58,12 @@ button {
     padding: 0px !important;
 }
 
+#vimeo-top-image {
+    padding-top: 50px;
+}
+
 #top-image {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 /* MODAL STYLING */
@@ -81,16 +85,10 @@ button {
 
 /* IMAGES AND VIDEOS */
 
-
 img {
     margin-top: 10px;
     margin-bottom: 35px;
     width: 700px;
-    max-width: calc(100%);
-}
-
-#cmptrimg img{
-    width: 1200px;
     max-width: calc(100%);
 }
 
@@ -99,6 +97,7 @@ img {
     max-width: calc(100%);
     margin-bottom: 0px;
 }
+
 .splash-images {
     max-width: 700px;
 }
@@ -107,20 +106,47 @@ img {
     max-width: 400px;
 }
 
-video {
-    margin-top: 25px;
-    width: 700px;
-    /* max-width: calc(100%); */
+.vimeo-player{
+    padding-bottom: 30px;
 }
 
 iframe {
-    margin-top: 50px;
+    padding-top: 30px;
     width: 700px;
     max-width: calc(100%);
 }
 
+
+/* #website{
+    -moz-transform: scale(0.50, 0.50); 
+    -webkit-transform: scale(0.50, 0.50); 
+    -o-transform: scale(0.50, 0.50);
+    -ms-transform: scale(0.50, 0.50);
+    transform: scale(0.50, 0.50); 
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+} */
+
+.website-frame {
+    width: 1800px !important;
+    margin: 0px;
+    -moz-transform: scale(0.50, 0.50); 
+    -webkit-transform: scale(0.50, 0.50); 
+    -o-transform: scale(0.50, 0.50);
+    -ms-transform: scale(0.50, 0.50);
+    transform: scale(0.50, 0.50); 
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}
+
 #other-website {
-    width: 1300px;
+    width: 900px !important;
 }
 
 
