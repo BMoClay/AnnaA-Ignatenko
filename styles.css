@@ -57,10 +57,10 @@ button {
     margin: 0px !important;
     padding: 0px !important;
 }
+
 #top-image {
     padding-top: 20px;
 }
-
 
 /* MODAL STYLING */
 
@@ -110,16 +110,18 @@ img {
 video {
     margin-top: 25px;
     width: 700px;
-    max-width: calc(100% - 5px);
+    /* max-width: calc(100%); */
 }
 
 iframe {
     margin-top: 50px;
     width: 700px;
-    max-width: calc(100% - 5px);
+    max-width: calc(100%);
 }
 
-
+#other-website {
+    width: 1300px;
+}
 
 
 /* MEDIA READERS (CELL PHONE STYLING) */
