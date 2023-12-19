@@ -24,6 +24,16 @@ button {
     border: none;
 }
 
+.line {
+    width: 100%;
+    position: absolute;
+    top: 140px;
+}
+/* .images {
+    position: sticky;
+    top: 300px;
+} */
+
 /* HEADER STYLING */
 
 #nav-buttons {
@@ -61,9 +71,9 @@ button {
     padding-top: 50px;
 }
 
-#top-image {
+/* #top-image {
     padding-top: 30px;
-}
+} */
 
 /* MODAL STYLING */
 
