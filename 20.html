@@ -16,37 +16,45 @@
             <a id="nav-buttons" href="19.html"><</a>
             <a id="nav-buttons" href="index.html">></a>
         </div>
-        <div class="project-role">
-            <h2>Photography</h2>
+        <!-- <hr class="line1"/> -->
+        <div class="info-text">
+            <div class="project-role">
+                <h2>Photography</h2>
+            </div>
+            <div class="project-info">
+                <h2>Tom Sachs, 2018</h2>
+                <h2>Studio Visit & Portrait</h2>
+                <h2>Document Magazine; Interview by Blake Abbie</h2>
+            </div>
         </div>
-        <div class="project-info">
-            <h2>Tom Sachs, 2018</h2>
-            <h2>Studio Visit & Portrait</h2>
-            <h2>Document Magazine; Interview by Blake Abbie</h2>
-        </div>
-        <div x-data="{ show: true}">
-            <button class="header-button" x-show="show"
-                x-on:click="isModalOpen = true; show = !show">
-            Info
+        <div id="tom-show" x-data="{ show: true}">
+            <button class="header-button" x-show="show" x-on:click="isModalOpen = true; show = !show">
+                Info
             </button>
-            <div x-show="isModalOpen" 
-                x-on:click.away="isModalOpen = false; show = true">
-                <button class="x-button" aria-label="Close"
-                        x-on:click="isModalOpen=false; show = !show">x</button>
-                <!-- <img id=phoneimg src="img/tomsachs/TSinterview.jpg" alt=""> -->
-                <img id=cmptrimg src="img/tomsachs/tscmptrimg copy.jpg" alt="">
-        </div>
+            <div x-show="isModalOpen" x-on:click.away="isModalOpen = false; show = true">
+                <button class="x-button" id="x-button" aria-label="Close" x-on:click="isModalOpen=false; show = !show">x</button>
+                <!-- <img id=cmptrimg src="img/tomsachs/tscmptrimg copy.jpg" alt=""> -->
+                <div class="website-frame">
+                    <iframe id="website" 
+                    src="Tom Sachs and Van Neistat on _A Space Program_.html" frameborder="0" 
+                    ></iframe>
+                </div>
+            </div>
+        </div>        
+        <!-- <hr class="line2"/> -->
     </div>
-    <div class="images">
-        <img id="top-image" src="img/tomsachs/Document_Tom_01.jpeg"/>
-        <img src="img/tomsachs/Document_Tom_08.jpeg"/>
-        <img src="img/tomsachs/Document_Tom_09.jpeg"/>
-        <img src="img/tomsachs/Document_Tom_10.jpeg"/>
-        <img src="img/tomsachs/Document_Tom_22.jpeg"/>
-        <img src="img/tomsachs/Document_Tom_24.jpeg"/>
-        <img src="img/tomsachs/Document_Tom_29.jpeg"/>
-        <img src="img/tomsachs/Document_Tom_37.jpeg"/>
-        <img src="img/tomsachs/Document_Tom_51.jpeg"/>
+    <div class="content">
+        <div class="images">
+            <img id="top-image" src="img/tomsachs/Document_Tom_01.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_08.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_09.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_10.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_22.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_24.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_29.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_37.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_51.jpeg"/>
+        </div>
     </div>
     <div class="overlay" x-show="isModalOpen" x-cloak></div>
 </body>
