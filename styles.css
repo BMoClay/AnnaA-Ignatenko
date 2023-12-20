@@ -24,11 +24,25 @@ button {
     border: none;
 }
 
-.line {
+.line1 {
     width: 100%;
     position: absolute;
-    top: 140px;
+    top: 82px;
 }
+
+.line2 {
+    width: 100%;
+    position: absolute;
+    top: 142px;
+}
+
+/* .content {
+    position: relative;
+    top: 8px;
+    width: 100%;
+    background-color: white;
+    color: black;
+} */
 /* .images {
     position: sticky;
     top: 300px;
@@ -142,6 +156,7 @@ iframe {
     -o-transform-origin: top left;
     -ms-transform-origin: top left;
     transform-origin: top left;
+    overflow: hidden;
   background: white;
   height: 800px;
 }
@@ -151,12 +166,18 @@ iframe {
     margin: 0px !important;"
 }
 
+#tom-show {
+    max-width: 700px;
+}
 /* iframe .website-frame {
     width: 900px !important;
 } */
 .website-frame {
-    padding-top: 10px;
-    margin: 0px;
+    width: 100%;
+    resize: auto;
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
 }
 
 
@@ -186,12 +207,13 @@ iframe {
         padding-bottom: 15px;
     }
 
-    .website-frame {
+    /* .website-frame {
         padding-top: 0px !important;
-    }
+    } */
     #website {
         padding-top: 0px !important;
-        height: 500px;
+        /* height: calc(100vh - 125px); */
+        height: 700px;
         -moz-transform: scale(calc(1 / 1)); 
         -webkit-transform: scale(calc(1 / 1)); 
         -o-transform: scale(calc(1 / 1));
@@ -202,6 +224,17 @@ iframe {
         -o-transform-origin: top left;
         -ms-transform-origin: top left;
         transform-origin: top left;
+        /* padding-bottom: 200px; */
+    }
+
+    .website-frame {
+        width: 100%;
+        resize: auto;
+        overflow: hidden;
+        position: fixed;
+        /* padding-bottom: 200px; */
+        /* height: 100%; */
+        height: 70vh;
     }
 
     .header-button {
@@ -224,7 +257,7 @@ iframe {
     #info-splash {
         padding-bottom: 50px;
     }
-    
+
     .navbuttons {
         padding-top: 7px;
         padding-bottom: 7px;
@@ -233,7 +266,7 @@ iframe {
         bottom: 0;
         width: 100%;
         background-color: white;
-        color: white;
+        color: black;
         text-align: center;
     }
     
@@ -245,7 +278,7 @@ iframe {
     .project-info {
         padding-right: 20px;
         padding-left: 30px;
-        padding-bottom: 30px;
+        /* padding-bottom: 30px; */
     }
 
     .section-title {

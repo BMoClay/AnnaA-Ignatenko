@@ -20,14 +20,15 @@
             <h2>Production Manager & Assistant Director</h2>
             <h2><em>Good People</em>, 2022</h2>
         </div>
-        <div class="project-info"><h2>Directed by Keren Cytter </h2></div>
+        <div class="project-info">
+            <h2>Directed by Keren Cytter </h2>
+        </div>
         <div id="info-modal" x-data="{ show: true}">
             <button id=good-people-button class="header-button" x-show="show"
                 x-on:click="isModalOpen = true; show = !show">Info
             </button>
             <div x-show="isModalOpen" id=info-medium class="model-inner-splash"
                 x-on:click.away="isModalOpen = false; show = true">
-                <!-- <button class="x-button" id="x-button" aria-label="Close" x-on:click="isModalOpen=false; show = !show">✖</button> -->
                 <button class="x-button" id="x-button" aria-label="Close" x-on:click="isModalOpen=false; show = !show">x</button>
                 <p>
                     <br>
