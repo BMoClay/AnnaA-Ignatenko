@@ -139,8 +139,12 @@ img {
 }
 
 iframe {
+<<<<<<< HEAD
+    /* margin-top: 50px; */
+=======
     /* padding-top: 30px; */
     /* width: 700px; */
+>>>>>>> fb512c02167a4c7ba98d44353ea012f43ecd2ab6
     width: 700px;
     max-width: calc(100%);
 }
@@ -300,7 +304,7 @@ iframe {
     }
 
     iframe {
-        margin-top: 10px;
+        /* margin-top: 10px; */
         max-width: calc(100%);
     }
 
