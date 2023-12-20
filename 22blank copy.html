@@ -24,11 +24,12 @@
         </div>
     </div>
     <div class="content">
-        <div x-data="{ open: false }">
-            <button x-on:click="open = ! open">Toggle Dropdown</button>
+        <div x-data="{ open: false, button: true }">
+        <!-- <div x-data="{ open: true }"> -->
+            <button x-show="button" x-on:click="open = !open, button = !button">Toggle Dropdown</button>
  
             <div x-show="open">
-                <button class="x-button" id="x-button" aria-label="Close" x-on:click="open=false; show = !show">x</button>
+                <button class="x-button" id="x-button" aria-label="Close" x-on:click="open=false; button = !button">x</button>
                 <iframe id="website" width="700px" height="700px"
                         src="Tom Sachs and Van Neistat on _A Space Program_.html" frameborder="0" 
                         ></iframe>

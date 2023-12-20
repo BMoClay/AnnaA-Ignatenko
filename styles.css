@@ -36,16 +36,20 @@ button {
     top: 142px;
 }
 
-/* .content {
-    position: relative;
-    top: 8px;
+.content {
+    /* position: relative; */
+    /* top: 8px; */
     width: 100%;
     background-color: white;
     color: black;
-} */
+}
+
 /* .images {
-    position: sticky;
-    top: 300px;
+    position: relative;
+} */
+
+/* .images-container {
+    margin-bottom: 200px;
 } */
 
 /* HEADER STYLING */
@@ -139,17 +143,30 @@ img {
 }
 
 iframe {
-<<<<<<< HEAD
     /* margin-top: 50px; */
-=======
-    /* padding-top: 30px; */
-    /* width: 700px; */
->>>>>>> fb512c02167a4c7ba98d44353ea012f43ecd2ab6
     width: 700px;
     max-width: calc(100%);
+    overflow: hidden;
+    background-color: white;
 }
 
-#website {
+/* #website {
+    -moz-transform: scale(calc(2 / 3)); 
+    -webkit-transform: scale(calc(2 / 3)); 
+    -o-transform: scale(calc(2 / 3));
+    -ms-transform: scale(calc(2 / 3));
+    transform: scale(calc(2 / 3));
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    overflow: hidden;
+  background: white;
+  height: 800px;
+} */
+
+#tswebsite {
     -moz-transform: scale(calc(2 / 3)); 
     -webkit-transform: scale(calc(2 / 3)); 
     -o-transform: scale(calc(2 / 3));
@@ -176,6 +193,7 @@ iframe {
 /* iframe .website-frame {
     width: 900px !important;
 } */
+
 .website-frame {
     width: 100%;
     resize: auto;
@@ -183,6 +201,14 @@ iframe {
     position: fixed;
     height: 100%;
 }
+
+/* .tswebsite-frame {
+    width: 100%;
+    resize: auto;
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+} */
 
 
 /* MEDIA READERS (CELL PHONE STYLING) */
@@ -211,13 +237,11 @@ iframe {
         padding-bottom: 15px;
     }
 
-    /* .website-frame {
-        padding-top: 0px !important;
-    } */
     #website {
         padding-top: 0px !important;
         /* height: calc(100vh - 125px); */
         height: 700px;
+        width: 700px;
         -moz-transform: scale(calc(1 / 1)); 
         -webkit-transform: scale(calc(1 / 1)); 
         -o-transform: scale(calc(1 / 1));
@@ -233,12 +257,13 @@ iframe {
 
     .website-frame {
         width: 100%;
+        height: 600px;
         resize: auto;
         overflow: hidden;
-        position: fixed;
+        /* position: fixed; */
         /* padding-bottom: 200px; */
         /* height: 100%; */
-        height: 70vh;
+        /* height: 70vh; */
     }
 
     .header-button {
@@ -256,6 +281,7 @@ iframe {
     #nav-buttons {
         padding: 5px;
         font-size: 20px;
+        background-color: white;
     }
 
     #info-splash {
