@@ -142,12 +142,19 @@ img {
     /* margin: 0px !important;" */
 }
 
+
+
 iframe {
     /* margin-top: 50px; */
+    height:300px;
     width: 700px;
     max-width: calc(100%);
     overflow: hidden;
     background-color: white;
+}
+
+iframe.sleek {
+    height: 600px;
 }
 
 /* #website {
@@ -165,22 +172,6 @@ iframe {
   background: white;
   height: 800px;
 } */
-
-#tswebsite {
-    -moz-transform: scale(calc(2 / 3)); 
-    -webkit-transform: scale(calc(2 / 3)); 
-    -o-transform: scale(calc(2 / 3));
-    -ms-transform: scale(calc(2 / 3));
-    transform: scale(calc(2 / 3));
-    -moz-transform-origin: top left;
-    -webkit-transform-origin: top left;
-    -o-transform-origin: top left;
-    -ms-transform-origin: top left;
-    transform-origin: top left;
-    overflow: hidden;
-  background: white;
-  height: 800px;
-}
 
 .vimeo-holder {
     padding: 0px !important; 
@@ -237,10 +228,14 @@ iframe {
         padding-bottom: 15px;
     }
 
+    .content {
+        height: 90vh;
+    }
+
     #website {
         padding-top: 0px !important;
         /* height: calc(100vh - 125px); */
-        height: 700px;
+        /* height: 700px; */
         width: 700px;
         -moz-transform: scale(calc(1 / 1)); 
         -webkit-transform: scale(calc(1 / 1)); 
@@ -255,11 +250,17 @@ iframe {
         /* padding-bottom: 200px; */
     }
 
-    .website-frame {
-        width: 100%;
-        height: 600px;
+    .sleek-frame {
+        height: 83vh;
         resize: auto;
         overflow: hidden;
+    }
+
+    .website-frame {
+        /* /* width: 100%; */
+        height: 600px;
+        resize: auto;
+        overflow: hidden; */
         /* position: fixed; */
         /* padding-bottom: 200px; */
         /* height: 100%; */
@@ -315,6 +316,10 @@ iframe {
         padding-left: 30px;
         padding-bottom: 10px;
     }
+
+    .embedbutton {
+        padding-left: 30px;
+    }
     
     img {
         margin-top: 5px;
@@ -331,7 +336,12 @@ iframe {
 
     iframe {
         /* margin-top: 10px; */
-        max-width: calc(100%);
+        /* max-width: calc(100%); */
+        height: 400px;
+    }
+
+    iframe.sleek {
+        height: 100vh;
     }
 
     iframe.vimeo-holder {

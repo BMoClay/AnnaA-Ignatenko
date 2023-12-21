@@ -24,8 +24,11 @@
         </div>
     </div>
     <div class="content">
-        <div x-data="{ open: false, button: true }">
-            <button x-on:click="open = ! open; button = ! button">Troggle Dropdown</button>
+        <!-- <div x-data="{ open: false, button: true }"> -->
+        <div x-data="{ open: false, show: true }">
+            <button x-show="show" x-on:click="open = ! open; show = ! show">
+                Troggle Dropdown
+            </button>
  
             <div x-show="open">
                 <button aria-label="Close" x-on:click="open=false; show = !show">kkx</button>
