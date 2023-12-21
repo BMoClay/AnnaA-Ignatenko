@@ -24,20 +24,26 @@
         </div>
     </div>
     <div class="content">
-        <div x-data="{ open: false }">
-            <button x-on:click="open = ! open">Toggle Dropdown</button>
+        <div x-data="{ open: false, button: true }">
+            <button x-on:click="open = ! open; button = ! button">Troggle Dropdown</button>
  
             <div x-show="open">
-                <button class="x-button" id="x-button" aria-label="Close" x-on:click="open=false; show = !show">x</button>
+                <button aria-label="Close" x-on:click="open=false; show = !show">kkx</button>
                 <iframe id="website" width="700px" height="700px"
-                        src="Tom Sachs and Van Neistat on _A Space Program_.html" frameborder="0" 
-                        ></iframe>
+                    src="Tom Sachs and Van Neistat on _A Space Program_.html" frameborder="0" 
+                ></iframe>
             </div>
         </div>
         <div class="images">
             <img src="img/centinel/Crying1-still.jpg" alt="">
             <img src="img/centinel/Mojo2-still.jpg" alt="">
             <img src="img/centinel/N Tahj1-still.jpg" alt="">
+        </div>
+        <div x-show="open">
+            <button aria-label="Close" x-on:click="open=false; show = !show">kkx</button>
+            <iframe id="website" width="700px" height="700px"
+                src="Tom Sachs and Van Neistat on _A Space Program_.html" frameborder="0" 
+            ></iframe>
         </div>
     </div>
     <div class="overlay" x-show="isModalOpen" x-cloak></div>
