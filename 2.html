@@ -23,13 +23,14 @@
         <div class="project-info">
             <h2>Directed by Keren Cytter </h2>
         </div>
-        <div id="info-modal" x-data="{ show: true}">
-            <button id=good-people-button class="header-button" x-show="show"
-                x-on:click="isModalOpen = true; show = !show">Info
+        <div x-data="{ show: true}">
+            <button x-show="show" class="header-button" 
+                x-on:click="isModalOpen = true; show = !show">
+                Info
             </button>
-            <div x-show="isModalOpen" id=info-medium class="model-inner-splash"
+            <div x-show="isModalOpen" id=info-medium
                 x-on:click.away="isModalOpen = false; show = true">
-                <button class="x-button" id="x-button" aria-label="Close" x-on:click="isModalOpen=false; show = !show">x</button>
+                <button class="x-button" aria-label="Close" x-on:click="isModalOpen=false; show = !show">x</button>
                 <p>
                     <br>
                     In March 2020, Sophia and Steve Alcorn found themselves stranded in a one-bedroom apartment in Elmhurst, 
@@ -65,7 +66,6 @@
                 <p>
                     Good People is funded by the Guggenheim Fellowship for Creative Arts US & Canada.    
                 </p>
-                <br>
             </div>
         </div>
     </div>

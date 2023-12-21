@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV & Miscellaneous</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"></script> -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
+    <div class="header">
+        <div class="navbuttons">
+            <a id="nav-buttons" href="20.html"><</a>
+            <a id="nav-buttons" href="index.html">></a>
+        </div>
+        <!-- <hr class="line1"/> -->
+        <div class="info-text">
+            <div class="project-role">
+                <h2>Secret Page called 'cv&misc' with CV and Miscellaneous Items</h2>
+                <h2>this page would not be linked to rest of site with the left right arrow navigation like it is now</h2>
+            </div>
+            <br><br>
+            <br><br>
+            <div class="project-role">
+                <h2>CV</h2>
+            </div>
+            <div class="project-info">
+                <h2>columbia, 2024</h2>
+                <h2>chronologically composed CV</h2>
+                <h2>education, projects with links or no links, etc etc</h2>
+            </div>
+            <br><br>
+            <br><br>
+            <div class="project-role">
+                <h2>Miscellaneous Projects and Achievements</h2>
+            </div>
+            <div class="project-info">
+                <h2>other things that didnt make it into website</h2>
+            </div>
+        </div>
+    </div>
+   
+    <div class="content">
+        <div class="images">
+            <!-- <div x-data="{ open: false, show: true }">
+                <button class="embedbutton" x-show="show" x-on:click="open = ! open; show = ! show">
+                    interview
+                </button>
+     
+                <div x-show="open" id=info-medium x-on:click="open=false; show = !show">
+                    <button aria-label="Close" class="x-button">x</button>
+                    <iframe id="website" 
+                        src="Tom Sachs and Van Neistat on _A Space Program_.html" frameborder="0" 
+                    ></iframe>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <div class="overlay" x-cloak></div>
+</body>
+</html>
