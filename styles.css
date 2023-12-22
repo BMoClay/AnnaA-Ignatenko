@@ -175,9 +175,17 @@ iframe.youtube-player {
         padding-top: 10px;
     }
 
+    /* #workslider { 
+        height: 1000px;
+    } */
+
     iframe.youtube-player {
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+
+    iframe.sleek {
+        height: 600px;
     }
 
 }
