@@ -157,7 +157,7 @@ iframe.youtube-player {
 }
 
 
-/* MEDIA READERS (CELL PHONE STYLING) */
+/* Computer media - medium big and up size */
 @media only screen and (min-width: 780px) {
     iframe {
         padding-top: 30px;
@@ -184,10 +184,19 @@ iframe.youtube-player {
         padding-bottom: 20px;
     }
 
-    iframe.sleek {
+    /* iframe.sleek {
         height: 600px;
-    }
+        max-height: 600px;
+        resize: auto;
+        overflow: hidden;
+    } */
 
+
+    /* .sleek-frame {
+        height: 83vh;
+        resize: auto;
+        overflow: hidden;
+    } */
 }
 
 
@@ -209,9 +218,9 @@ iframe.youtube-player {
         padding-bottom: 15px;
     }
 
-    .content {
+    /* .content {
         height: 90vh;
-    }
+    } */
 
     #website {
         padding-top: 0px;
@@ -314,7 +323,8 @@ iframe.youtube-player {
     }
 
     iframe.sleek {
-        height: 100vh;
+        /* height: 100vh; */
+        /* height: 3000px; */
     }
 
     iframe#website {
