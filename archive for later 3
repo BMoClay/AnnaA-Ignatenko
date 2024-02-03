@@ -195,3 +195,64 @@
     </div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a10ko Tom Sachs Studio Visit</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <!-- <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"></script> -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
+    <div class="header">
+        <div class="navbuttons">
+            <a id="nav-buttons" href="19.html"><</a>
+            <a id="nav-buttons" href="cv&misc.html">></a>
+        </div>
+        <!-- <hr class="line1"/> -->
+        <div class="info-text">
+            <div class="project-role">
+                <h2>Photography</h2>
+            </div>
+            <div class="project-info">
+                <h2>Tom Sachs, 2018</h2>
+                <h2>Studio Visit & Portrait</h2>
+                <h2>Document Magazine; Interview by Blake Abbie</h2>
+            </div>
+        </div>
+    </div>
+   
+    <div class="content">
+        <div class="images">
+            <div x-data="{ open: false, show: true }">
+                <button class="embedbutton" x-show="show" x-on:click="open = ! open; show = ! show">
+                    interview
+                </button>
+     
+                <div x-show="open" id=info-medium x-on:click="open=false; show = !show">
+                    <button aria-label="Close" class="x-button">x</button>
+                    <iframe id="website" 
+                        src="Tom Sachs and Van Neistat on _A Space Program_.html" frameborder="0" 
+                    ></iframe>
+                </div>
+            </div>
+            <img id="top-image" src="img/tomsachs/Document_Tom_01.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_08.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_09.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_10.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_22.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_24.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_29.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_37.jpeg"/>
+            <img src="img/tomsachs/Document_Tom_51.jpeg"/>
+        </div>
+    </div>
+    <div class="overlay" x-cloak></div>
+</body>
+</html>
