@@ -34,3 +34,164 @@
     <div class="overlay" x-show="isModalOpen" x-cloak></div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judith Bernstein Studio Visit</title>
+    <link rel="stylesheet" href="styles.css">
+    <script 
+        defer 
+        src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"
+    ></script>
+</head>
+<body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
+    <div class="header">
+        <div class="navbuttons">
+            <a id="nav-buttons" href="9.html"><</a>
+            <a id="nav-buttons" href="11.html">></a>
+        </div>
+        <div class="project-role">
+            <h2>Photographer</h2>
+        </div>
+        <div class="project-info">
+            <h2>Judith Bernstein, 2016</h2>
+            <h2>Studio Visit & Portrait</h2>
+            <h2>Document Journal; Interview by Blake Abbie</h2>
+        </div>
+    </div>
+    <div class="small-images">
+        <img id="top-image" src="img/judithbernstein/DSC_9815Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9819Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9821-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9827Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9831Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9839Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9843Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9845Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9847Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9848Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9849Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9851Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9860Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9862Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9864Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9868-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9869Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9872Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9873-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9874Color-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9875-E.jpg"/>
+        <img src="img/judithbernstein/DSC_9877Color-E.jpg"/>
+    </div>
+    <div class="overlay" x-show="isModalOpen" x-cloak></div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a10ko WL</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <script 
+        defer 
+        src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"
+    ></script>
+</head>
+<body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
+    <div class="header">
+        <div class="navbuttons">
+            <a id="nav-buttons" href="18.html"><</a>
+            <a id="nav-buttons" href="index.html">></a>
+        </div>
+        <div class="project-role">
+            <h2>Photography</h2>
+        </div>
+        <div class="project-info">
+            <h2>WL, 2013</h2>
+            <h2>Interview Magazine</h2>
+        </div>
+    </div>
+    <div class="images">
+        <img id="top-image" src="img/wl/img-wl_133500779144.jpeg"/>
+    </div>
+    <div class="overlay" x-show="isModalOpen" x-cloak></div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a10ko Sleek Magazine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"></script>
+</head>
+
+<body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
+    <div class="header">
+        <div class="navbuttons">
+            <a id="nav-buttons" href="16.html"><</a>
+                    <a id="nav-buttons" href="18.html">></a>
+        </div>
+        <div class="project-role">
+            <h2>Photographer</h2>
+        </div>
+        <div class="project-info">
+            <h2><em>Bodylanguage Dialect</em>, 2015</h2>
+            <h2>Sleek Magazine Fall/Winter Issue</h2>
+        </div>
+    </div>
+
+    <!-- <div class="content">
+        <div class="sleek-frame">
+        <iframe class="sleek" id="website" width="700" height=relative src="testBody Language Dialect (Sleek Magazine).html"
+            frameborder="0"></iframe> -->
+        </div>
+    </div>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a10ko Richard Meier x Christine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <script 
+        defer 
+        src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"
+    ></script>
+</head>
+<body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
+    <div class="header">
+        <div class="navbuttons">
+            <a id="nav-buttons" href="14.html"><</a>
+            <a id="nav-buttons" href="16.html">></a>
+        </div>
+        <div class="project-role">
+            <h2>Photographer</h2>
+        </div>
+        <div class="project-info">
+            <h2>Richard Meier Model Museum x Wallpaper, 2017</h2>
+            <h2>Wallpaper; Print Issue</h2>
+        </div>
+    </div>
+</body>
+</html>
