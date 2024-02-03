@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>a10ko Girl and the Ghost</title>
+    <title>a10ko WL</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -17,18 +17,20 @@
 <body x-data="{'isModalOpen': false}" x-on:keydown.escape="isModalOpen=false">
     <div class="header">
         <div class="navbuttons">
-            <a id="nav-buttons" href="7.html"><</a>
-            <a id="nav-buttons" href="9.html">></a>
+            <a id="nav-buttons" href="18.html"><</a>
+            <a id="nav-buttons" href="index.html">></a>
         </div>
-        <div class="text">
-            <div class="project-role">
-                <h2>Director of Photography</h2>
-            </div>
-            <div class="project-info">
-                <h2><em>Girl and the Ghost</em>, 2022</h2>
-                <h2>Starred and Directed by Cammissa Beurhaus</h2>
-            </div>
+        <div class="project-role">
+            <h2>Photography</h2>
+        </div>
+        <div class="project-info">
+            <h2>WL, 2013</h2>
+            <h2>Interview Magazine</h2>
         </div>
     </div>
+    <div class="images">
+        <img id="top-image" src="img/wl/img-wl_133500779144.jpeg"/>
+    </div>
+    <div class="overlay" x-show="isModalOpen" x-cloak></div>
 </body>
 </html>
