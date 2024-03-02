@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../AnnaA-Ignatenko/a10ko"
+		},
+		{
+			"name": "AnnaA-Ignatenko-1",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AnnaA-Ignatenko-1"
+	}
+}
